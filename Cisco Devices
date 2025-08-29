@@ -22,6 +22,7 @@ conf t
 		password pass
 		login
 		exec-timeout 0 0
+exit
 		line vty 0 14
 			password pass
 			login
