@@ -62,7 +62,7 @@ switchport mode access
 switchport access vlan 99   ! Uplink to FortiGate
 exit
 
-ip route 0.0.0.0 0.0.0.0 192.168.99.254
+ip route 0.0.0.0 0.0.0.0 192.168.99.254 - tutok kay Firewall
 
 
 ==============================================================================================================
